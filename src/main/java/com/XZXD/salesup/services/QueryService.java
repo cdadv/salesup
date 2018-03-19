@@ -13,7 +13,7 @@ public class QueryService {
     @Autowired
     private SalesRecordRepository salesRecordRepository;
 
-    public List<SalesRecord> queryAllSalesRecords() {
+    public List<SalesRecord> queryAllSalesRecord() {
         return salesRecordRepository.findAll();
     }
 }

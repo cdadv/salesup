@@ -16,8 +16,8 @@ public class QueryController {
     QueryService queryService;
 
     @RequestMapping("/query/all/sales_record")
-    public List<SalesRecord> queryAllSales() {
-        return queryService.queryAllSalesRecords();
+    public List<SalesRecord> queryAllSalesRecord() {
+        return queryService.queryAllSalesRecord();
     }
 
 }
