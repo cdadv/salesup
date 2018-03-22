@@ -13,8 +13,12 @@ import java.util.Queue;
 
 
 @Service
-public class BarcodeScannerListener implements NativeKeyListener{
-    private static final Logger logger = LoggerFactory.getLogger(BarcodeScannerListener.class);
+public class BarcodeScannerHidListener0 implements NativeKeyListener{
+    /*
+    TODO: JNativeHook library is not able to identify different input sources...
+    https://github.com/kwhat/jnativehook/issues/118
+     */
+    private static final Logger logger = LoggerFactory.getLogger(BarcodeScannerHidListener0.class);
     // Empty the queue when detect enter
     private static Queue<String> characterQueue = new LinkedList<>();
     private static Queue<String> stringQueue = new LinkedList<>();

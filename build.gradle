@@ -42,4 +42,5 @@ dependencies {
     Keyboard hook
      */
     compile("com.1stleg:jnativehook:2.1.0")
+    compile("org.hid4java:hid4java:0.5.0")
 }
