@@ -1,4 +1,4 @@
-package com.XZXD.salesup.domains;
+package com.salesup.local.domains;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

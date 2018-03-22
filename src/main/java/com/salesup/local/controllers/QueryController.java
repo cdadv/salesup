@@ -1,10 +1,10 @@
-package com.XZXD.salesup.controllers;
+package com.salesup.local.controllers;
 
-import com.XZXD.salesup.domains.SalesRecord;
+import com.salesup.local.domains.SalesRecord;
+import com.salesup.local.services.QueryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.XZXD.salesup.services.QueryService;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package com.XZXD.salesup.services;
+package com.salesup.cloud.services;
 
-import com.XZXD.salesup.domains.SalesRecord;
+import com.salesup.cloud.domains.SalesRecord;
+import com.salesup.cloud.repositories.SalesRecordRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.XZXD.salesup.repositories.SalesRecordRepository;
 
 import java.util.List;
 
