@@ -39,6 +39,7 @@ cmake-build-debug/
 
 # IntelliJ
 /out/
+**/out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -64,8 +65,9 @@ fabric.properties
 
 .idea/
 
-
 # End of https://www.gitignore.io/api/intellij+all
+
+
 
 #####################
 #### Gradle part ####

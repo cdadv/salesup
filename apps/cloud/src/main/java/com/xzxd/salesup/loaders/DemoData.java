@@ -1,7 +1,7 @@
-package com.XZXD.salesup.loaders;
+package com.xzxd.salesup.loaders;
 
-import com.XZXD.salesup.domains.SalesRecord;
-import com.XZXD.salesup.repositories.SalesRecordRepository;
+import com.xzxd.salesup.domains.SalesRecord;
+import com.xzxd.salesup.repositories.SalesRecordRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
