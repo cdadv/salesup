@@ -1,2 +1,3 @@
 rootProject.name = 'salesup'
-
+include ':apps:local'
+include ':apps:cloud'
